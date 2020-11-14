@@ -98,20 +98,20 @@
 
 @font-face {
     font-family: girott;
-    src: url(/dist/Girott-Munch-Bold.18119f25c99336e1121cadebb09479c0.woff2) format("woff2"),url(/dist/Girott-Munch-Bold.3aafdf96b7832d5a1e39996691a3568c.woff) format("woff"),url(/dist/Girott-Munch-Bold.8b192708dbcb5722cbceab8bd2a5d712.eot) format("opentype");
+    src: url(/resources/Girott-Munch-Bold.18119f25c99336e1121cadebb09479c0.woff2) format("woff2"),url(/resources/Girott-Munch-Bold.3aafdf96b7832d5a1e39996691a3568c.woff) format("woff"),url(/resources/Girott-Munch-Bold.8b192708dbcb5722cbceab8bd2a5d712.eot) format("opentype");
     font-weight: 700;
     font-display:swap}
 
 @font-face {
     font-family: girott;
-    src: url(/dist/Girott-Munch-Bold-Slant.ca393ba5e4d1c4b1d3f168b168697f85.woff2) format("woff2"),url(/dist/Girott-Munch-Bold-Slant.ab9a3496f5295ecc267cb20518d4a46e.woff) format("woff"),url(/dist/Girott-Munch-Bold-Slant.92c6b1707eb4e563755a84623c903227.eot) format("opentype");
+    src: url(/resources/Girott-Munch-Bold-Slant.ca393ba5e4d1c4b1d3f168b168697f85.woff2) format("woff2"),url(/resources/Girott-Munch-Bold-Slant.ab9a3496f5295ecc267cb20518d4a46e.woff) format("woff"),url(/resources/Girott-Munch-Bold-Slant.92c6b1707eb4e563755a84623c903227.eot) format("opentype");
     font-weight: 700;
     font-style: italic;
     font-display:swap}
 
 @font-face {
     font-family: girott-backslant;
-    src: url(/dist/Girott-Munch-Bold-Backslant.2bf54cb5660483d904d9ed8dcb471ce5.woff2) format("woff2"),url(/dist/Girott-Munch-Bold-Backslant.fbeda321a226179d2a042440a6047793.woff) format("woff"),url(/dist/Girott-Munch-Bold-Backslant.d92f06b6465706e06b3f6dc5cfce7903.eot) format("opentype");
+    src: url(/resources/Girott-Munch-Bold-Backslant.2bf54cb5660483d904d9ed8dcb471ce5.woff2) format("woff2"),url(/resources/Girott-Munch-Bold-Backslant.fbeda321a226179d2a042440a6047793.woff) format("woff"),url(/resources/Girott-Munch-Bold-Backslant.d92f06b6465706e06b3f6dc5cfce7903.eot) format("opentype");
     font-weight: 700;
     font-display:swap}
 
