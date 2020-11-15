@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html>
 	<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>MUNCH on github</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="https://www.munchmuseet.no/dist/assets/images/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="https://www.munchmuseet.no/dist/assets/images/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="https://www.munchmuseet.no/dist/assets/images/favicon-16x16.png">
-	<link rel="icon" type="image/ico" href="https://www.munchmuseet.no/dist/assets/images/favicon.ico">
-	<link rel="mask-icon" href="https://www.munchmuseet.no/dist/assets/images/safari-pinned-tab.svg" color="#5bbad5">
-	<meta name="msapplication-TileColor" content="#da532c">
-	<meta name="theme-color" content="#ffffff">
-    <link type="text/css" rel="stylesheet" href="/css/features.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>MUNCH on github</title>
+		<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/diva.js/6.0.2/css/diva.css" />
+		<script src="//cdnjs.cloudflare.com/ajax/libs/diva.js/6.0.2/js/diva.js"></script>
+		<link rel="apple-touch-icon" sizes="180x180" href="https://www.munchmuseet.no/dist/assets/images/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="https://www.munchmuseet.no/dist/assets/images/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="https://www.munchmuseet.no/dist/assets/images/favicon-16x16.png">
+		<link rel="icon" type="image/ico" href="https://www.munchmuseet.no/dist/assets/images/favicon.ico">
+		<link rel="mask-icon" href="https://www.munchmuseet.no/dist/assets/images/safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="theme-color" content="#ffffff">
+		<link type="text/css" rel="stylesheet" href="/css/features.css">
 	</head>
 	<body>
 		<div class="NavigationContainer Navigation--blackGold">
@@ -202,6 +204,12 @@
 															<a class="EventCard__link" href="https://github.com/Munchmuseet/FotoWeb-API" title="FotoWeb API">
 																<div class="CardPicture">
 																	<picture>
+																		<script>
+																			let diva = new Diva('diva-wrapper', {
+																				objectData: "https://munch.emuseum.com/apis/iiif/presentation/v2/objects-23396/manifest"
+																				// possible settings
+																			});
+																		</script>
 																	</picture>
 																</div>
 																<h2 class="EventCard__title">FotoWeb-API
