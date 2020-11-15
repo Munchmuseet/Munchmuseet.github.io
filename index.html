@@ -4,8 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>MUNCH on github</title>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/diva.js/5.1.2/css/diva.css" />
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/diva.js/5.1.2/js/diva.js"></script>
+		<script src="/tify/dist/tify.js"></script>
 		<link rel="apple-touch-icon" sizes="180x180" href="https://www.munchmuseet.no/dist/assets/images/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="https://www.munchmuseet.no/dist/assets/images/favicon-32x32.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="https://www.munchmuseet.no/dist/assets/images/favicon-16x16.png">
@@ -203,13 +202,18 @@
 														<div class="EventCard EventCard--withImage">
 															<a class="EventCard__link" href="https://github.com/Munchmuseet/FotoWeb-API" title="FotoWeb API">
 																<div class="CardPicture">
-																	<div id="diva-wrapper"></div>
+																	<div id="viewer"></div>
 																	<script>
-																		let diva = new Diva('diva-wrapper', {
-																			objectData: "https://munch.emuseum.com/apis/iiif/presentation/v2/objects-23396/manifest"
-																			// possible settings
-																		});
+																		tifyOptions = {
+																			container: '#viewer',
+																			immediateRender: false,
+																			init: true,
+																			language: 'en',
+																			manifest: 'https://munch.emuseum.com/apis/iiif/presentation/v2/objects-23396/manifest',
+																			title: 'Madonna',
+																		}
 																	</script>
+																	<script src="/tify/dist/tify.js"></script>
 																</div>
 																<h2 class="EventCard__title">FotoWeb-API
 																	<span class="EventCard__subtitle">Repository</span>
