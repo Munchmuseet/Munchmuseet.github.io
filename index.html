@@ -202,18 +202,6 @@
 														<div class="EventCard EventCard--withImage">
 															<a class="EventCard__link" href="https://github.com/Munchmuseet/FotoWeb-API" title="FotoWeb API">
 																<div class="CardPicture">
-																	<div id="viewer"></div>
-																	<script>
-																		tifyOptions = {
-																			container: '#viewer',
-																			immediateRender: false,
-																			init: true,
-																			language: 'en',
-																			manifest: 'https://munch.emuseum.com/apis/iiif/presentation/v2/objects-23396/manifest',
-																			title: 'Madonna',
-																		}
-																	</script>
-																	<script src="/tify/dist/tify.js"></script>
 																</div>
 																<h2 class="EventCard__title">FotoWeb-API
 																	<span class="EventCard__subtitle">Repository</span>
@@ -225,11 +213,21 @@
 												<div>
 													<div style="animation-fill-mode: both; animation-duration: 650ms; animation-delay: 100ms; animation-iteration-count: 1; opacity: 1; animation-name: react-reveal-760257932422179-1;">
 														<div class="ExhibitionCard">
+															<div class="CardPicture">
+																<div id="viewer"></div>
+																<script>
+																	tifyOptions = {
+																		container: '#viewer',
+																		immediateRender: false,
+																		init: true,
+																		language: 'en',
+																		manifest: 'https://munch.emuseum.com/apis/iiif/presentation/v2/objects-23396/manifest',
+																		title: 'Madonna',
+																	}
+																</script>
+																<script src="/tify/dist/tify.js"></script>
+															</div>
 															<a href="https://github.com/Munchmuseet/IIIF-Image-API" title="IIIF-Image-API">
-																<div class="CardPicture">
-																	<picture>
-																	</picture>
-																</div>
 																<h2 class="ExhibitionCard__title">IIIF-Image-API
 																	<span class="ExhibitionCard__subtitle">Repository</span>
 																</h2>
