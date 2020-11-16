@@ -6,7 +6,7 @@ var fw1 = {
     "Accept": "application/vnd.fotoware.asset+json"
   },
 };
-var fw1 = {
+var fw2 = {
   "url": "https://foto.munchmuseet.no/fotoweb/archives/5000-Malerier/Assets/Arkiv/M0651_20160414.tif.info",
   "method": "GET",
   "timeout": 0,
