@@ -95,17 +95,6 @@
 															<div class="CardPicture" id="CardPicture">
 																<img id="FotoWeb2">
 															</div>	
-															<!-- <script>
-																tifyOptions = {
-																	container: '#CardPicture',
-																	immediateRender: false,
-																	init: true,
-																	language: 'en',
-																	manifest: 'https://munch.emuseum.com/apis/iiif/presentation/v2/objects-3600/manifest',
-																	title: 'The Sun',
-																}
-															</script> -->
-															<script src="/tify/dist/tify.js"></script>
 															<a href="https://github.com/Munchmuseet/IIIF-Image-API" title="IIIF-Image-API">
 																<h2 class="ExhibitionCard__title">IIIF-Image-API
 																	<span class="ExhibitionCard__subtitle">Repository</span>
@@ -123,6 +112,18 @@
 					</div>
 				</div>
 			</div>
+			<div class="tify"></div>
+			<script>
+				tifyOptions = {
+					container: '#tify',
+					immediateRender: false,
+					init: true,
+					language: 'en',
+					manifest: 'https://munch.emuseum.com/apis/iiif/presentation/v2/objects-3600/manifest',
+					title: 'The Sun',
+				}
+			</script>
+			<script src="/tify/dist/tify.js"></script>
 		</main>
 	</body>
 </html>
