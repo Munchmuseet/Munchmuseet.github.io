@@ -8,7 +8,7 @@ var settings = {
 };
 
 $.ajax(settings).done(function (response) {
-  $jpg = "https://foto.munchmuseet.no" + response.previews[7].href;
+  $jpg = "https://foto.munchmuseet.no" + response.previews[6].href;
   $("#FotoWeb1").attr("src",$jpg);
   console.log($jpg);
 });
