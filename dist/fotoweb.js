@@ -7,7 +7,7 @@ var fw1 = {
   },
 };
 var fw2 = {
-  "url": "https://foto.munchmuseet.no/fotoweb/archives/5000-Malerier/Assets/Arkiv/M0651_20160414.tif.info",
+  "url": "https://foto.munchmuseet.no/fotoweb/archives/5000-Malerier/Assets/Arkiv/MM.G.00612-27.tif.info",
   "method": "GET",
   "timeout": 0,
   "headers": {
