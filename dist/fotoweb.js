@@ -7,7 +7,7 @@ var fw1 = {
   },
 };
 var fw2 = {
-  "url": "https://foto.munchmuseet.no/fotoweb/archives/5000-Malerier/Assets/Arkiv/MM.G.00612-27.tif.info",
+  "url": "https://foto.munchmuseet.no/fotoweb/archives/5011-Grafikk/Arkiv/MM.G.00612-27.tif.info",
   "method": "GET",
   "timeout": 0,
   "headers": {
@@ -15,7 +15,7 @@ var fw2 = {
   },
 };
 var fw3 = {
-  "url": "https://foto.munchmuseet.no/fotoweb/archives/5000-Malerier/Assets/Arkiv/M0994_20040804.tif.info",
+  "url": "https://foto.munchmuseet.no/fotoweb/archives/5026-Malerier/Arkiv/M0994_20040804.tif.info",
   "method": "GET",
   "timeout": 0,
   "headers": {
