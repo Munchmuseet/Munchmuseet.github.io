@@ -1,5 +1,5 @@
 var fw1 = {
-  "url": "https://foto.munchmuseet.no/fotoweb/archives/5000-Malerier/Assets/Arkiv/MM.M.00495_20191118.tif.info",
+  "url": "https://foto.munchmuseet.no/fotoweb/archives/5026-Malerier/Arkiv/MM.M.00495_20191118.tif.info",
   "method": "GET",
   "timeout": 0,
   "headers": {
